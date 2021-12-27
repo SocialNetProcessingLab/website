@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "text": "Home",
+      "url": "/",
+      "external": false
+    },
+    {
+      "text": "Comunity",
+      "url": "/comunity",
+      "external": false
+    },
+    {
+      "text": "Twitter",
+      "url": "https://twitter.com/",
+      "external": true
+    },
+    {
+      "text": "GitHub",
+      "url": "https://github.com/",
+      "external": true
+    },
+    {
+      "text": "About",
+      "url": "/About",
+      "external": true
+    }
+  ]
+}
