@@ -6,23 +6,18 @@
       "external": false
     },
     {
-      "text": "Comunity",
-      "url": "/comunity",
+      "text": "About",
+      "url": "/About",
       "external": false
     },
     {
-      "text": "Twitter",
-      "url": "https://twitter.com/",
+      "text": "Software & Demos",
+      "url": "/Software",
       "external": true
     },
     {
-      "text": "GitHub",
-      "url": "https://github.com/",
-      "external": true
-    },
-    {
-      "text": "About",
-      "url": "/About",
+      "text": "Blog & News",
+      "url": "/Blog",
       "external": true
     }
   ]
