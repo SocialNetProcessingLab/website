@@ -1,11 +1,15 @@
-<div class="l-container">
-  <header class="l-site-head">
-    <a href="/" class="invert-link">
-      <span class="l-site-name">
-        {% include "partials/icons/logo.svg" %}
-        <span class="l-site-title site-title">{{ site.name }}</span>
-      </span>
-    </a>
-    {% include "partials/nav.njk" %}
+<div class="container mx-auto">
+  <header class="container mx-auto">
+    <div class="container flex flex-wrap justify-between items-center mx-auto">
+      <a href="/" class="flex">
+        <span class="l-site-name">
+          <svg class="mr-3 h-10" viewBox="0 0 52 72" fill="none">
+            {% include "partials/icons/logo.svg" %}
+          </svg>
+          <span class="self-center text-lg font-semibold whitespace-nowrap dark:text-white">{{ site.name }}</span>
+        </span>
+      </a>
+      {% include "partials/nav.njk" %}
+    </div>
   </header>
 </div>
