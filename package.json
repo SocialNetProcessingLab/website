@@ -4,7 +4,7 @@
   "description": "official site",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "build": "rm -rf _site dist; eleventy; parcel build 'src/*.html' 'src/*/*.html' ",
+    "build": "rm -rf _site dist; eleventy; parcel build '_site/src/*.html' '_/site/src/*/*.html' ",
     "watch": "eleventy --watch",
     "serve": "parcel '_site/*.html' '_site/*/index.html' --open",
     "debug": "DEBUG=* eleventy",

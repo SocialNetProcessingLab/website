@@ -7,18 +7,18 @@
     },
     {
       "text": "About",
-      "url": "/About",
+      "url": "/about",
       "external": false
     },
     {
       "text": "Software & Demos",
-      "url": "/Software",
-      "external": true
+      "url": "/software",
+      "external": false
     },
     {
       "text": "Blog & News",
-      "url": "/Blog",
-      "external": true
+      "url": "/blog",
+      "external": false
     }
   ]
 }
