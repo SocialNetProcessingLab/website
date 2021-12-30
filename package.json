@@ -4,9 +4,9 @@
   "description": "official site",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "build": "rm -rf _site dist; eleventy; parcel build src/home/index.html ",
+    "build": "rm -rf _site dist; eleventy; parcel build 'src/*.html' 'src/*/*.html' ",
     "watch": "eleventy --watch",
-    "serve": "parcel _site/home/index.html --open",
+    "serve": "parcel '_site/*.html' '_site/*/index.html' --open",
     "debug": "DEBUG=* eleventy",
     "start": "run-p watch serve"
   },
