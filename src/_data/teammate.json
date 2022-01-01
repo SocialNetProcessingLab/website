@@ -1,0 +1,28 @@
+{
+  "people": [
+    {
+      "name": "John",
+      "image": "http://www.gravatar.com/avatar/?d=identicon",
+      "position": "CEO",
+      "location": "Berlin"
+    },
+    {
+      "name": "Jane",
+      "image": "http://www.gravatar.com/avatar/?d=identicon",
+      "position": "CTO",
+      "location": "Beijing"
+    },
+    {
+      "name": "Sam",
+      "image": "http://www.gravatar.com/avatar/?d=identicon",
+      "position": "Engineer",
+      "location": "Shanghai"
+    },
+    {
+      "name": "Victor",
+      "image": "http://www.gravatar.com/avatar/?d=identicon",
+      "position": "Engineer",
+      "location": "Tokyo"
+    }
+  ]
+}
