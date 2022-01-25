@@ -1,14 +1,31 @@
 {% if teammate.people %}
     <div class="container flex mx-auto my-12 justify-center">
-        <div class="grid grid-cols-2 md:grid-cols-3 px-12 gap-12">
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
             {% for person in teammate.people %}
-                <div class="flex mx-auto my-8 justify-items-center">
-                    <div class= "w-32 rounded-lg shadow-xl bg-white ">
-                        <img src="{{ person.image }}" alt="{{ person.name }}" class="w-full"/>
-                        <div class=" text- md:text-2xl font-bold py-4 px-4 text-center ">{{ person.name }}</div>
-                        <div class="text-gray-500 text-center font-semibold mx-auto my-2 ">{{ person.position }}</div>
-                        <div class="text-gray-500 text-center font-semibold mx-auto my-2 ">{{ person.location }}</div>
+                <div class="flex flex-col items-center justify-center bg-white p-4 shadow rounded-lg">
+                    <div class="inline-flex shadow-lg border border-gray-200 rounded-full overflow-hidden h-40 w-40">
+                        <img src="{{ person.image }}" alt="{{ person.name }}" class="h-full w-full"/>
                     </div>
+                    <h2 class="mt-4 font-bold text-xl">{{ person.name }}</h2>
+                    <h6 class="mt-2 text-sm font-medium">{{ person.position }}</h6>
+                    <p class="text-xs text-gray-500 text-center mt-3">{{ person.location }}</p>
+                    <ul class="flex flex-row mt-4 space-x-2">
+                        <li>
+                            <a href="" class="flex items-center justify-center h-8 w-8 border rounded-full text-gray-800 border-gray-800">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="flex items-center justify-center h-8 w-8 border rounded-full text-gray-800 border-gray-800">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="flex items-center justify-center h-8 w-8 border rounded-full text-gray-800 border-gray-800">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             {% endfor %}
         </div>
