@@ -3,8 +3,8 @@ const site = require("./src/_data/site.js");
 
 module.exports = function (config) {
   // Passthrough
-  config.addPassthroughCopy("./src/sytles/styles.css");
-  config.addPassthroughCopy("./src/images");
+  config.addPassthroughCopy("img");
+  config.addPassthroughCopy("css");
 
   // Watch for changes to my source files
   if (config.addWatchTarget) {
