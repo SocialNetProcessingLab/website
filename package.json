@@ -6,7 +6,7 @@
   "scripts": {
     "build": "rm -rf _site dist; eleventy; parcel build '_site/src/*.html' '_/site/src/*/*.html' ",
     "watch": "eleventy --watch",
-    "serve": "parcel '_site/*.html' '_site/*/index.html' --open",
+    "serve": "parcel '_site/*.html' '_site/*.html' _site/*/index.html '_site/*/*/*.html' --open",
     "debug": "DEBUG=* eleventy",
     "start": "run-p watch serve"
   },
