@@ -1,8 +1,11 @@
 ---
 layout: base.njk
-templateClass: tmpl-post
 ---
-<h1>{{ title }}</h1>
+<link rel="stylesheet"  href="../../assets/styles/main.css">
 
-{{ content | safe }}
-
+<div class="flex flex-col justify-start items-center px-12 my-24">
+    <article class="prose lg:prose-xl">
+        <h1>{{ title }}</h1>
+        {{ content | markdown | safe }}
+    </article>
+</div>

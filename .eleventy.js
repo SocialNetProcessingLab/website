@@ -13,6 +13,15 @@ module.exports = function (config) {
     console.log("No additional watch targets");
   }
 
+  let markdownIt = require("markdown-it");
+  const md = new markdownIt({
+    html: true,
+  });
+
+  config.addFilter("markdown", (content) => {
+    return md.render(content);
+  });
+
   return {
     dir: {
       input: "src",
