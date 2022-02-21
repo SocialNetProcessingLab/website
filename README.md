@@ -13,6 +13,6 @@ yarn
 ### Start a local server using:
 
 ```
-yarn
+yarn build
 yarn start
 ```
