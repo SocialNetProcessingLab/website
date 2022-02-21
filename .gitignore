@@ -22,7 +22,6 @@ yarn-error.log*
 
 # lock
 package-lock.json
-yarn.lock
 
 # parcel-cache
 .parcel-cache
